@@ -5,7 +5,7 @@
 #include "stdafx.h"
 #include "JavascriptAsyncMethodCallback.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

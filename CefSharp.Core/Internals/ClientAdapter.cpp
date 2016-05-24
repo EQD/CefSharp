@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -33,10 +33,10 @@
 #include "CefResponseFilterAdapter.h"
 #include "PopupFeatures.h"
 
-using namespace CefSharp::Internals::Messaging;
-using namespace CefSharp::Internals::Serialization;
+using namespace MavoraCefSharp::Internals::Messaging;
+using namespace MavoraCefSharp::Internals::Serialization;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -128,7 +128,7 @@ namespace CefSharp
                 _browserControl, browserWrapper,
                 %frameWrapper, StringUtils::ToClr(target_url),
                 StringUtils::ToClr(target_frame_name),
-                (CefSharp::WindowOpenDisposition)target_disposition,
+                (MavoraCefSharp::WindowOpenDisposition)target_disposition,
                 user_gesture, %popupFeaturesWrapper,
                 %windowInfoWrapper, %browserSettingsWrapper, *no_javascript_access, newBrowser);
 
@@ -507,7 +507,7 @@ namespace CefSharp
             auto browserWrapper = GetBrowserWrapper(browser->GetIdentifier(), browser->IsPopup(), false);
             CefFrameWrapper frameWrapper(frame);
 
-            return handler->OnOpenUrlFromTab(_browserControl, browserWrapper, %frameWrapper, StringUtils::ToClr(targetUrl), (CefSharp::WindowOpenDisposition)targetDisposition, userGesture);
+            return handler->OnOpenUrlFromTab(_browserControl, browserWrapper, %frameWrapper, StringUtils::ToClr(targetUrl), (MavoraCefSharp::WindowOpenDisposition)targetDisposition, userGesture);
         }
 
         bool ClientAdapter::OnCertificateError(CefRefPtr<CefBrowser> browser, cef_errorcode_t cert_error, const CefString& request_url, CefRefPtr<CefSSLInfo> ssl_info, CefRefPtr<CefRequestCallback> callback)
@@ -957,7 +957,7 @@ namespace CefSharp
             CefDragDataWrapper dragDataWrapper(dragData);
             auto browserWrapper = GetBrowserWrapper(browser->GetIdentifier(), browser->IsPopup(), false);
 
-            return handler->OnDragEnter(_browserControl, browserWrapper, %dragDataWrapper, (CefSharp::DragOperationsMask)mask);
+            return handler->OnDragEnter(_browserControl, browserWrapper, %dragDataWrapper, (MavoraCefSharp::DragOperationsMask)mask);
         }
 
         void ClientAdapter::OnDraggableRegionsChanged(CefRefPtr<CefBrowser> browser, const std::vector<CefDraggableRegion>& regions)

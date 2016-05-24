@@ -8,7 +8,7 @@
 
 using namespace System::Collections::Generic;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

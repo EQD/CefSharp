@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,8 +8,8 @@
     <ProjectGuid>{23EE5140-2C2C-4B53-A954-10B08DCA6BD6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CefSharp.BrowserSubprocess</RootNamespace>
-    <AssemblyName>CefSharp.BrowserSubprocess</AssemblyName>
+    <RootNamespace>MavoraCefSharp.BrowserSubprocess</RootNamespace>
+    <AssemblyName>MavoraCefSharp.BrowserSubprocess</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -96,11 +96,11 @@
   <ItemGroup>
     <ProjectReference Include="..\CefSharp.BrowserSubprocess.Core\CefSharp.BrowserSubprocess.Core.vcxproj">
       <Project>{6c4bb501-2f8e-48ac-9ab5-8cfb2d74185c}</Project>
-      <Name>CefSharp.BrowserSubprocess.Core</Name>
+      <Name>MavoraCefSharp.BrowserSubprocess.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\CefSharp\CefSharp.csproj">
       <Project>{a55848cc-10e7-40cb-addb-04740b16dd43}</Project>
-      <Name>CefSharp</Name>
+      <Name>MavoraCefSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

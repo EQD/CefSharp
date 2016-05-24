@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using NUnit.Framework;
 
-namespace CefSharp.WinForms.Test
+namespace MavoraCefSharp.WinForms.Test
 {
     [TestFixture]
     public class InitTest

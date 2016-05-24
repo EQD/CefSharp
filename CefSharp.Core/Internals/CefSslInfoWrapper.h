@@ -10,7 +10,7 @@
 
 #include "include\cef_ssl_info.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

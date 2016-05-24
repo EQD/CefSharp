@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
-using CefSharp.Internals;
+using MavoraCefSharp.Internals;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     [DataContract]
     [KnownType(typeof (object[]))]

@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Project. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Project. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -13,9 +13,9 @@
 
 using namespace System::Collections::Generic;
 using namespace System::Linq;
-using namespace CefSharp::Internals;
+using namespace MavoraCefSharp::Internals;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     // Wrap CefAppUnmangedWrapper in a nice managed wrapper
     public ref class CefAppWrapper abstract

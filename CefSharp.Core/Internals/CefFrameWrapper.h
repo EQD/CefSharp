@@ -12,7 +12,7 @@
 
 using namespace System::Threading::Tasks;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

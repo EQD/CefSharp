@@ -6,7 +6,7 @@
 
 #include "include/cef_base.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

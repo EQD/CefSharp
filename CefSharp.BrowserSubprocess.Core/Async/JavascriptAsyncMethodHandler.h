@@ -8,7 +8,7 @@
 #include "JavascriptCallbackRegistry.h"
 #include "JavascriptAsyncMethodCallback.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

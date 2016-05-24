@@ -9,7 +9,7 @@
 #include "include\cef_context_menu_handler.h"
 #include "CefWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

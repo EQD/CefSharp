@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     partial class AboutBox : Form
     {
@@ -82,7 +82,7 @@ namespace CefSharp.WinForms.Example
             labelVersion.Text = String.Format("Version {0} ", Cef.CefSharpVersion);
             labelCopyright.Text = AssemblyCopyright;
             labelCompanyName.Text = AssemblyCompany;
-            textBoxDescription.Text = "CefSharp - .Net binding for Chromium\r\n\r\n"
+            textBoxDescription.Text = "MavoraCefSharp - .Net binding for Chromium\r\n\r\n"
                 + "Built on Chromium Embedded Framework\r\n"
                 + "   - " + Cef.CefVersion + "\r\n"
                 + "Built on Chromium\r\n"

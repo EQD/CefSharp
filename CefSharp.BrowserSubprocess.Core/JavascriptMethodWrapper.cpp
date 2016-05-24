@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Project. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Project. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 #pragma once
@@ -7,7 +7,7 @@
 
 #include "JavascriptMethodWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     void JavascriptMethodWrapper::Bind(JavascriptMethod^ javascriptMethod, const CefRefPtr<CefV8Value>& v8Value)
     {

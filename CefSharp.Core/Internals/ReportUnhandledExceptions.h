@@ -10,7 +10,7 @@
 
 using namespace System::Threading;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

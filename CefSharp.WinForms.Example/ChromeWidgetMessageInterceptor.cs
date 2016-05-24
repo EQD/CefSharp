@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     /// <summary>
     /// Intercepts Windows messages sent to the ChromiumWebBrowser control's widget sub-window.

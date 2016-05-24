@@ -9,7 +9,7 @@
 
 using namespace std;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

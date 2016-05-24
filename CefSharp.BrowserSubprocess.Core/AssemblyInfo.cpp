@@ -5,7 +5,7 @@ using namespace System::Reflection;
 using namespace System::Runtime::CompilerServices;
 using namespace System::Runtime::InteropServices;
 using namespace System::Security::Permissions;
-using namespace CefSharp;
+using namespace MavoraCefSharp;
 
 //[assembly:AssemblyTitle("CefSharpBrowserSubprocess.Core")];
 //[assembly:AssemblyCompany(AssemblyInfo::AssemblyCompany)];

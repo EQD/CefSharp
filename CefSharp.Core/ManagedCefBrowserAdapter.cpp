@@ -9,7 +9,7 @@
 #include "Internals/CefFrameWrapper.h"
 #include "Internals/CefSharpBrowserWrapper.h"
 
-using namespace CefSharp::Internals::Messaging;
+using namespace MavoraCefSharp::Internals::Messaging;
 
 bool ManagedCefBrowserAdapter::IsDisposed::get()
 {

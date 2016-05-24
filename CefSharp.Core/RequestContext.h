@@ -16,7 +16,7 @@
 
 using namespace System::Runtime::InteropServices;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     /// <summary>
     /// A request context provides request handling for a set of related browser objects.

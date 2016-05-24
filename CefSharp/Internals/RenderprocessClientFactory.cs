@@ -1,13 +1,13 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
-namespace CefSharp.Internals
+namespace MavoraCefSharp.Internals
 {
     internal class RenderprocessClientFactory
     {
         private const string BaseAddress = "net.pipe://localhost";
-        private const string ServiceName = "CefSharpSubProcessProxy";
+        private const string ServiceName = "MavoraCefSharpSubProcessProxy";
 
         public static string GetServiceName(int parentProcessId, int browserId)
         {

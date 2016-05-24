@@ -8,7 +8,7 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Text;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     /// <summary>
     /// Class ResourceHandler.

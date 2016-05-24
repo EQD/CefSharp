@@ -8,7 +8,7 @@
 
 using namespace System::Diagnostics;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

@@ -8,7 +8,7 @@
 
 #include "include\cef_dialog_handler.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

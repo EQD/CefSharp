@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
-namespace CefSharp.Wpf.Example.Controls
+namespace MavoraCefSharp.Wpf.Example.Controls
 {
     /// <summary>
     /// Extended TabControl which saves the displayed item so you don't get the performance hit of

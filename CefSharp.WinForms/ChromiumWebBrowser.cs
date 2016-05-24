@@ -1,13 +1,13 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
 using System.Windows.Forms;
-using CefSharp.Internals;
-using CefSharp.WinForms.Internals;
+using MavoraCefSharp.Internals;
+using MavoraCefSharp.WinForms.Internals;
 
-namespace CefSharp.WinForms
+namespace MavoraCefSharp.WinForms
 {
     public class ChromiumWebBrowser : Control, IWebBrowserInternal, IWinFormsWebBrowser
     {

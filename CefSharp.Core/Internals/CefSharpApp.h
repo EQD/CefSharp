@@ -9,7 +9,7 @@
 #include "include/cef_app.h"
 #include "CefSettings.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     private class CefSharpApp : public CefApp,
         public CefBrowserProcessHandler

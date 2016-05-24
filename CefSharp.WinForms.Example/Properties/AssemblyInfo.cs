@@ -1,9 +1,9 @@
-﻿using CefSharp;
+using MavoraCefSharp;
 using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CefSharp.WinForms.Example")]
+[assembly: AssemblyTitle("MavoraCefSharp.WinForms.Example")]
 [assembly: AssemblyCompany(AssemblyInfo.AssemblyCompany)]
 [assembly: AssemblyProduct(AssemblyInfo.AssemblyProduct)]
 [assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]

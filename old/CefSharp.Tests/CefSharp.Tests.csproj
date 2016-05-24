@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,8 +8,8 @@
     <ProjectGuid>{1C6D8AFA-8EB9-47D0-9439-6073B2818ADF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CefSharp.Tests</RootNamespace>
-    <AssemblyName>CefSharp.Tests</AssemblyName>
+    <RootNamespace>MavoraCefSharp.Tests</RootNamespace>
+    <AssemblyName>MavoraCefSharp.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -59,7 +59,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CefSharp\CefSharp.vcproj">
       <Project>{7B495581-2271-4F41-9476-ACB86E8C864F}</Project>
-      <Name>CefSharp</Name>
+      <Name>MavoraCefSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

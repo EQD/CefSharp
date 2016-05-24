@@ -6,7 +6,7 @@
 #include "JavascriptCallbackRegistry.h"
 #include "JavascriptAsyncMethodWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

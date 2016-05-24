@@ -6,7 +6,7 @@
 #include "JavascriptCallbackProxy.h"
 #include "JavascriptCallbackFactory.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

@@ -1,13 +1,13 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
 using System.Windows.Forms;
-using CefSharp.Example;
+using MavoraCefSharp.Example;
 using System.Threading.Tasks;
 
-namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     public partial class BrowserForm : Form
     {
@@ -21,7 +21,7 @@ namespace CefSharp.WinForms.Example
             InitializeComponent();
 
             var bitness = Environment.Is64BitProcess ? "x64" : "x86";
-            Text = "CefSharp.WinForms.Example - " + bitness;
+            Text = "MavoraCefSharp.WinForms.Example - " + bitness;
             WindowState = FormWindowState.Maximized;
 
             AddTab(CefExample.DefaultUrl);

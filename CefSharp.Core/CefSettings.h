@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@
 
 using namespace System::Collections::Generic;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     public ref class CefSettings
     {
@@ -131,10 +131,10 @@ namespace CefSharp
             void set(String^ value) { StringUtils::AssignNativeFromClr(_cefSettings->log_file, value); }
         }
 
-        property CefSharp::LogSeverity LogSeverity
+        property MavoraCefSharp::LogSeverity LogSeverity
         {
-            CefSharp::LogSeverity get() { return (CefSharp::LogSeverity)_cefSettings->log_severity; }
-            void set(CefSharp::LogSeverity value) { _cefSettings->log_severity = (cef_log_severity_t)value; }
+            MavoraCefSharp::LogSeverity get() { return (MavoraCefSharp::LogSeverity)_cefSettings->log_severity; }
+            void set(MavoraCefSharp::LogSeverity value) { _cefSettings->log_severity = (cef_log_severity_t)value; }
         }
 
         /// <summary>

@@ -5,7 +5,7 @@
 #include "Stdafx.h"
 #include "CefContextMenuParamsWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

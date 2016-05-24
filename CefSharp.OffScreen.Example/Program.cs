@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Threading.Tasks;
-using CefSharp.Example;
+using MavoraCefSharp.Example;
 
-namespace CefSharp.OffScreen.Example
+namespace MavoraCefSharp.OffScreen.Example
 {
     public class Program
     {
@@ -116,7 +116,7 @@ namespace CefSharp.OffScreen.Example
         private static void DisplayBitmap(Task<Bitmap> task)
         {
             // Make a file to save it to (e.g. C:\Users\jan\Desktop\CefSharp screenshot.png)
-            var screenshotPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "CefSharp screenshot" + DateTime.Now.Ticks + ".png");
+            var screenshotPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "MavoraCefSharp screenshot" + DateTime.Now.Ticks + ".png");
 
             Console.WriteLine();
             Console.WriteLine("Screenshot ready. Saving to {0}", screenshotPath);

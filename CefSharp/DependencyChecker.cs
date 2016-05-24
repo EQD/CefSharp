@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     /// <summary>
     /// DependencyChecker provides a known list of Cef/CefSharp dependencies and 
@@ -74,8 +74,8 @@ namespace CefSharp
         /// </summary>
         public static string[] CefSharpDependencies =
         {
-            "CefSharp.Core.dll",
-            "CefSharp.dll"
+            "MavoraCefSharp.Core.dll",
+            "MavoraCefSharp.dll"
         };
 
         /// <summary>
@@ -83,9 +83,9 @@ namespace CefSharp
         /// </summary>
         public static string[] BrowserSubprocessDependencies =
         {
-            "CefSharp.BrowserSubprocess.Core.dll",
-            "CefSharp.Core.dll",
-            "CefSharp.dll",
+            "MavoraCefSharp.BrowserSubprocess.Core.dll",
+            "MavoraCefSharp.Core.dll",
+            "MavoraCefSharp.dll",
             "icudtl.dat",
             "libcef.dll"
         };
@@ -178,7 +178,7 @@ namespace CefSharp
         /// <param name="packLoadingDisabled">Is loading of pack files disabled?</param>
         /// <param name="browserSubProcessPath">The path to a separate executable that will be launched for sub-processes.</param>
         /// <exception cref="Exception">Throw when not all dependencies are present</exception>
-        public static void AssertAllDependenciesPresent(string locale = null, string localesDirPath = null, string resourcesDirPath = null, bool packLoadingDisabled = false, string browserSubProcessPath = "CefSharp.BrowserSubProcess.exe")
+        public static void AssertAllDependenciesPresent(string locale = null, string localesDirPath = null, string resourcesDirPath = null, bool packLoadingDisabled = false, string browserSubProcessPath = "MavoraCefSharp.BrowserSubProcess.exe")
         {
             var executingAssembly = Assembly.GetExecutingAssembly();
 

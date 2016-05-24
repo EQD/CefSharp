@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2015 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2015 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -7,9 +7,9 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using CefSharp.Wpf;
+using MavoraCefSharp.Wpf;
 
-namespace CefSharp.Test
+namespace MavoraCefSharp.Test
 {
     public class Fixture : DisposableResource
     {
@@ -31,7 +31,7 @@ namespace CefSharp.Test
 
                 var cefsettings = new CefSettings
                 {
-                    BrowserSubprocessPath = Path.Combine(Environment.CurrentDirectory, "CefSharp.BrowserSubprocess.exe"),
+                    BrowserSubprocessPath = Path.Combine(Environment.CurrentDirectory, "MavoraCefSharp.BrowserSubprocess.exe"),
                     LogSeverity = LogSeverity.Verbose,
                     LocalesDirPath = Path.Combine(Environment.CurrentDirectory, "locales"),
                     PackLoadingDisabled = true

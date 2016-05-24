@@ -25,7 +25,7 @@ using namespace System::Collections::Generic;
 using namespace System::Linq;
 using namespace System::Reflection;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     public ref class Cef sealed
     {

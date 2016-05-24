@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Project. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Project. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CefSharp.Internals
+namespace MavoraCefSharp.Internals
 {
     /// <summary>
     /// Class to store TaskCompletionSources indexed by a unique id.

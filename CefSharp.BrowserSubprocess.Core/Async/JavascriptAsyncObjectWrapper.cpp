@@ -9,7 +9,7 @@
 
 using namespace System::Linq;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

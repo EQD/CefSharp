@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Project. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Project. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 #pragma once
@@ -16,10 +16,10 @@
 
 using namespace System::Diagnostics;
 using namespace System::Collections::Generic;
-using namespace CefSharp::Internals::Messaging;
-using namespace CefSharp::Internals::Serialization;
+using namespace MavoraCefSharp::Internals::Messaging;
+using namespace MavoraCefSharp::Internals::Serialization;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     const CefString CefAppUnmanagedWrapper::kPromiseCreatorFunction = "cefsharp_CreatePromise";
     const CefString CefAppUnmanagedWrapper::kPromiseCreatorScript = ""

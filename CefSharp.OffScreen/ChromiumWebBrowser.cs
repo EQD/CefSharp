@@ -1,13 +1,13 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
 using System.Drawing;
 using System.Threading.Tasks;
-using CefSharp.Internals;
+using MavoraCefSharp.Internals;
 
-namespace CefSharp.OffScreen
+namespace MavoraCefSharp.OffScreen
 {
     /// <summary>
     /// An offscreen instance of Chromium that you can use to take

@@ -1,9 +1,9 @@
-﻿using CefSharp;
+using MavoraCefSharp;
 using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CefSharp.BrowserSubprocess")]
+[assembly: AssemblyTitle("MavoraCefSharp.BrowserSubprocess")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyTrademark("")]

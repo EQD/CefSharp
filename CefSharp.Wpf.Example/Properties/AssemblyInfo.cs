@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using CefSharp;
+using MavoraCefSharp;
 
-[assembly: AssemblyTitle("CefSharp.Wpf.Example")]
+[assembly: AssemblyTitle("MavoraCefSharp.Wpf.Example")]
 [assembly: AssemblyCompany(AssemblyInfo.AssemblyCompany)]
 [assembly: AssemblyProduct(AssemblyInfo.AssemblyProduct)]
 [assembly: AssemblyCopyright(AssemblyInfo.AssemblyCopyright)]

@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -13,12 +13,12 @@
 #include "JavascriptRootObjectWrapper.h"
 #include "Async/JavascriptAsyncMethodCallback.h"
 
-using namespace CefSharp::Internals::Async;
+using namespace MavoraCefSharp::Internals::Async;
 using namespace System::ServiceModel;
 using namespace System::Threading;
 using namespace System::Threading::Tasks;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     // "Master class" for wrapping everything that the Cef Subprocess needs 
     // for ONE CefBrowser.

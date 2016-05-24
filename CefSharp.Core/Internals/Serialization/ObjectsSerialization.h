@@ -8,7 +8,7 @@
 
 #include "include/cef_values.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

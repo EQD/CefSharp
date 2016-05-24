@@ -1,8 +1,8 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
-using CefSharp.Example;
+using MavoraCefSharp.Example;
 using System;
 using System.ComponentModel;
 using System.Windows;
@@ -10,7 +10,7 @@ using System.Windows.Input;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 
-namespace CefSharp.Wpf.Example.ViewModels
+namespace MavoraCefSharp.Wpf.Example.ViewModels
 {
     public class BrowserTabViewModel : ViewModelBase
     {

@@ -8,7 +8,7 @@
 
 using namespace System::Collections::Concurrent;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

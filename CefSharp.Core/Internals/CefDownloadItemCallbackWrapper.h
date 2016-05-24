@@ -10,7 +10,7 @@
 
 #include "CefWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

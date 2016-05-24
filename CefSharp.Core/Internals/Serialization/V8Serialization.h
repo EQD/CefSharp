@@ -4,7 +4,7 @@
 
 #pragma once
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

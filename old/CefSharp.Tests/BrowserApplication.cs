@@ -1,4 +1,4 @@
-﻿namespace CefSharp.Tests
+namespace MavoraCefSharp.Tests
 {
     using System;
     using System.Threading;

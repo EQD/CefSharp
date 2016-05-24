@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -9,7 +9,7 @@ using namespace System::Reflection;
 using namespace System::Runtime::CompilerServices;
 using namespace System::Runtime::InteropServices;
 using namespace System::Security::Permissions;
-using namespace CefSharp;
+using namespace MavoraCefSharp;
 
 [assembly:AssemblyTitle("CefSharp.Core")];
 [assembly:AssemblyCompany(AssemblyInfo::AssemblyCompany)];

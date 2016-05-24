@@ -1,10 +1,10 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System.IO;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     /// <summary>
     /// Class used to implement a custom resource handler. The methods of this class will always be called on the CEF IO thread.

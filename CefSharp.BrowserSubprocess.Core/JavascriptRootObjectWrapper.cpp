@@ -10,7 +10,7 @@
 
 using namespace System::Threading;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     void JavascriptRootObjectWrapper::Bind(JavascriptRootObject^ rootObject, JavascriptRootObject^ asyncRootObject, const CefRefPtr<CefV8Value>& v8Value)
     {

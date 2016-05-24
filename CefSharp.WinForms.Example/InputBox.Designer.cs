@@ -1,4 +1,4 @@
-﻿namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     partial class InputBox
     {

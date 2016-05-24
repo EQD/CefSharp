@@ -1,10 +1,10 @@
-﻿// Copyright © 2010-2016 The CefSharp Project. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Project. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System.Runtime.Serialization;
 
-namespace CefSharp.Internals
+namespace MavoraCefSharp.Internals
 {
     [DataContract]
     public class JavascriptCallback

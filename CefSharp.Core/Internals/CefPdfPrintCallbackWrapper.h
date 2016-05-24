@@ -7,7 +7,7 @@
 #include "Stdafx.h"
 #include "include/cef_browser.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

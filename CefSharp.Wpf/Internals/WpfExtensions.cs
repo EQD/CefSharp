@@ -1,15 +1,15 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
-using CefSharp.Internals;
+using MavoraCefSharp.Internals;
 using System;
 using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Input;
 
-namespace CefSharp.Wpf.Internals
+namespace MavoraCefSharp.Wpf.Internals
 {
     public static class WpfExtensions
     {

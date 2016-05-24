@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
-using CefSharp.Example.Properties;
-using CefSharp.Example.Proxy;
-using CefSharp.Internals;
+using MavoraCefSharp.Example.Properties;
+using MavoraCefSharp.Example.Proxy;
+using MavoraCefSharp.Internals;
 
-namespace CefSharp.Example
+namespace MavoraCefSharp.Example
 {
     public static class CefExample
     {
@@ -45,7 +45,7 @@ namespace CefSharp.Example
             //The location where cache data will be stored on disk. If empty an in-memory cache will be used for some features and a temporary disk cache for others.
             //HTML5 databases such as localStorage will only persist across sessions if a cache path is specified. 
             settings.CachePath = "cache";
-            //settings.UserAgent = "CefSharp Browser" + Cef.CefSharpVersion; // Example User Agent
+            //settings.UserAgent = "MavoraCefSharp Browser" + Cef.CefSharpVersion; // Example User Agent
             //settings.CefCommandLineArgs.Add("renderer-process-limit", "1");
             //settings.CefCommandLineArgs.Add("renderer-startup-dialog", "1");
             //settings.CefCommandLineArgs.Add("enable-media-stream", "1"); //Enable WebRTC
@@ -143,7 +143,7 @@ namespace CefSharp.Example
                 SchemeHandlerFactory = new CefSharpSchemeHandlerFactory()
             });
 
-            settings.RegisterExtension(new CefExtension("cefsharp/example", Resources.extension));
+            settings.RegisterExtension(new CefExtension("MavoraCefSharp/example", Resources.extension));
 
             settings.FocusedNodeChangedEnabled = true;
 
@@ -183,7 +183,7 @@ namespace CefSharp.Example
                 response.Headers.Add("HeaderTest1", "HeaderTest1Value");
                 handler.RegisterHandler(TestResourceUrl, response);
 
-                const string unicodeResponseBody = "<html><body>整体满意度</body></html>";
+                const string unicodeResponseBody = "<html><body>?????</body></html>";
                 handler.RegisterHandler(TestUnicodeResourceUrl, ResourceHandler.FromString(unicodeResponseBody));
 
                 if (string.IsNullOrEmpty(PluginInformation))

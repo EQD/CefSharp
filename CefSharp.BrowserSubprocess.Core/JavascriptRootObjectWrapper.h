@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Project. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Project. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -13,9 +13,9 @@ using namespace System::Runtime::Serialization;
 using namespace System::Linq;
 using namespace System::Collections::Generic;
 
-using namespace CefSharp::Internals::Async;
+using namespace MavoraCefSharp::Internals::Async;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     // This wraps the transmitted registered objects
     // by binding the meta-data to V8 JavaScript objects
@@ -39,7 +39,7 @@ namespace CefSharp
     internal:
         property JavascriptCallbackRegistry^ CallbackRegistry
         {
-            CefSharp::Internals::JavascriptCallbackRegistry^ get();
+            MavoraCefSharp::Internals::JavascriptCallbackRegistry^ get();
         }
 
         property bool IsBound

@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -6,9 +6,9 @@ using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using CefSharp.Internals;
+using MavoraCefSharp.Internals;
 
-namespace CefSharp.WinForms.Internals
+namespace MavoraCefSharp.WinForms.Internals
 {
     internal class ParentFormMessageInterceptor : NativeWindow, IDisposable
     {

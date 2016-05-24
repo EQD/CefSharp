@@ -6,7 +6,7 @@
 
 #include "NativeMethodWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     void NativeMethodWrapper::CopyMemoryUsingHandle(IntPtr dest, IntPtr src, int numberOfBytes)
     {

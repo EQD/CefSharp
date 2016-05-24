@@ -1,4 +1,4 @@
-﻿namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     partial class BrowserTabUserControl
     {
@@ -69,7 +69,7 @@
             // findPreviousButton
             // 
             this.findPreviousButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.findPreviousButton.Image = global::CefSharp.WinForms.Example.Properties.Resources.nav_left_green;
+            this.findPreviousButton.Image = global::MavoraCefSharp.WinForms.Example.Properties.Resources.nav_left_green;
             this.findPreviousButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.findPreviousButton.Name = "findPreviousButton";
             this.findPreviousButton.Size = new System.Drawing.Size(23, 22);
@@ -79,7 +79,7 @@
             // findNextButton
             // 
             this.findNextButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.findNextButton.Image = global::CefSharp.WinForms.Example.Properties.Resources.nav_right_green;
+            this.findNextButton.Image = global::MavoraCefSharp.WinForms.Example.Properties.Resources.nav_right_green;
             this.findNextButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.findNextButton.Name = "findNextButton";
             this.findNextButton.Size = new System.Drawing.Size(23, 22);
@@ -134,7 +134,7 @@
             // backButton
             // 
             this.backButton.Enabled = false;
-            this.backButton.Image = global::CefSharp.WinForms.Example.Properties.Resources.nav_left_green;
+            this.backButton.Image = global::MavoraCefSharp.WinForms.Example.Properties.Resources.nav_left_green;
             this.backButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(52, 22);
@@ -144,7 +144,7 @@
             // forwardButton
             // 
             this.forwardButton.Enabled = false;
-            this.forwardButton.Image = global::CefSharp.WinForms.Example.Properties.Resources.nav_right_green;
+            this.forwardButton.Image = global::MavoraCefSharp.WinForms.Example.Properties.Resources.nav_right_green;
             this.forwardButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.forwardButton.Name = "forwardButton";
             this.forwardButton.Size = new System.Drawing.Size(70, 22);
@@ -160,7 +160,7 @@
             // 
             // goButton
             // 
-            this.goButton.Image = global::CefSharp.WinForms.Example.Properties.Resources.nav_plain_green;
+            this.goButton.Image = global::MavoraCefSharp.WinForms.Example.Properties.Resources.nav_plain_green;
             this.goButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.goButton.Name = "goButton";
             this.goButton.Size = new System.Drawing.Size(42, 22);

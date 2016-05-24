@@ -9,7 +9,7 @@
 #include "include\cef_download_handler.h"
 #include "CefWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

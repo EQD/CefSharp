@@ -16,7 +16,7 @@
 using namespace System::IO;
 using namespace System::Collections::Specialized;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     private class SchemeHandlerFactoryWrapper : public CefSchemeHandlerFactory
     {

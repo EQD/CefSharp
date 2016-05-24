@@ -1,17 +1,17 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
-using CefSharp.Example;
+using MavoraCefSharp.Example;
 using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using CefSharp.WinForms.Example.Handlers;
-using CefSharp.WinForms.Internals;
+using MavoraCefSharp.WinForms.Example.Handlers;
+using MavoraCefSharp.WinForms.Internals;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     public partial class BrowserTabUserControl : UserControl
     {

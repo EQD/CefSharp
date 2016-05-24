@@ -7,7 +7,7 @@
 #include "JsObjectsSerialization.h"
 #include "V8Serialization.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

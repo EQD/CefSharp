@@ -6,7 +6,7 @@
 
 #include "Stdafx.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     private ref class CookieAsyncWrapper
     {

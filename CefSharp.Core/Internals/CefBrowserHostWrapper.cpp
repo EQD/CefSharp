@@ -388,7 +388,7 @@ IRequestContext^ CefBrowserHostWrapper::RequestContext::get()
 {
     ThrowIfDisposed();
 
-    return gcnew CefSharp::RequestContext(_browserHost->GetRequestContext());
+    return gcnew MavoraCefSharp::RequestContext(_browserHost->GetRequestContext());
 }
 
 CefMouseEvent CefBrowserHostWrapper::GetCefMouseEvent(MouseEvent^ mouseEvent)

@@ -1,11 +1,11 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
 using System.Runtime.Serialization;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     /// Based on: http://msdn.microsoft.com/en-us/library/fs2xkftw(v=vs.110).aspx
     

@@ -10,7 +10,7 @@
 
 #include "CefWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -206,7 +206,7 @@ namespace CefSharp
             {
                 ThrowIfDisposed();
 
-                return (CefSharp::MenuItemType)_menu->GetType((int)commandId);
+                return (MavoraCefSharp::MenuItemType)_menu->GetType((int)commandId);
             }
 
             virtual MenuItemType GetTypeAt(int index)

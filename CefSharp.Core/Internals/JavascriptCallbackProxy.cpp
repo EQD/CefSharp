@@ -8,10 +8,10 @@
 #include "Serialization/Primitives.h"
 #include "Serialization/V8Serialization.h"
 
-using namespace CefSharp::Internals::Messaging;
-using namespace CefSharp::Internals::Serialization;
+using namespace MavoraCefSharp::Internals::Messaging;
+using namespace MavoraCefSharp::Internals::Serialization;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

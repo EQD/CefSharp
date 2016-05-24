@@ -10,7 +10,7 @@
 
 using namespace System::Threading::Tasks;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -25,7 +25,7 @@ namespace CefSharp
                 _taskCompletionSource = gcnew TaskCompletionSource<Geoposition^>();
 
                 //NOTE: Use fully qualified name as TaskExtensions is ambiguious
-                CefSharp::Internals::TaskExtensions::WithTimeout<Geoposition^>(_taskCompletionSource, TimeSpan::FromMilliseconds(2000));
+                MavoraCefSharp::Internals::TaskExtensions::WithTimeout<Geoposition^>(_taskCompletionSource, TimeSpan::FromMilliseconds(2000));
             }
 
             virtual void OnLocationUpdate(const CefGeoposition& position) OVERRIDE

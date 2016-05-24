@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -9,7 +9,7 @@
 
 using namespace System::Threading::Tasks;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     private class PluginVisitor : public CefWebPluginInfoVisitor
     {
@@ -24,7 +24,7 @@ namespace CefSharp
             _taskCompletionSource = gcnew TaskCompletionSource<List<Plugin>^>();
 
             //NOTE: Use fully qualified name as TaskExtensions is ambiguious
-            CefSharp::Internals::TaskExtensions::WithTimeout<List<Plugin>^>(_taskCompletionSource, TimeSpan::FromMilliseconds(2000));
+            MavoraCefSharp::Internals::TaskExtensions::WithTimeout<List<Plugin>^>(_taskCompletionSource, TimeSpan::FromMilliseconds(2000));
         }
 
         ~PluginVisitor()

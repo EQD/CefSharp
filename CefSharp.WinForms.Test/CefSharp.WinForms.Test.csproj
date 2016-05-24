@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,8 +8,8 @@
     <ProjectGuid>{310B527B-A811-450D-A1B2-79352FDB338A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CefSharp.WinForms.Test</RootNamespace>
-    <AssemblyName>CefSharp.WinForms.Test</AssemblyName>
+    <RootNamespace>MavoraCefSharp.WinForms.Test</RootNamespace>
+    <AssemblyName>MavoraCefSharp.WinForms.Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
@@ -53,16 +53,16 @@
   <ItemGroup>
     <ProjectReference Include="..\CefSharp.WinForms\CefSharp.WinForms.vcxproj">
       <Project>{978c9b2b-04b6-4359-a341-ca3fcbe98d32}</Project>
-      <Name>CefSharp.WinForms</Name>
+      <Name>MavoraCefSharp.WinForms</Name>
     </ProjectReference>
     <ProjectReference Include="..\CefSharp\CefSharp.vcxproj">
       <Project>{7b495581-2271-4f41-9476-acb86e8c864f}</Project>
       <Project>{978C9B2B-04B6-4359-A341-CA3FCBE98D32}</Project>
-      <Name>CefSharp.WinForms</Name>
+      <Name>MavoraCefSharp.WinForms</Name>
     </ProjectReference>
     <ProjectReference Include="..\CefSharp\CefSharp.vcxproj">
       <Project>{7B495581-2271-4F41-9476-ACB86E8C864F}</Project>
-      <Name>CefSharp</Name>
+      <Name>MavoraCefSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

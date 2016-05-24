@@ -10,7 +10,7 @@
 
 using namespace System::IO;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -57,7 +57,7 @@ namespace CefSharp
             {
                 Int64 dataInReadPtr = 0;
                 Int64 dataOutWrittenPtr = 0;
-                CefSharp::FilterStatus status;
+                MavoraCefSharp::FilterStatus status;
 
                 UnmanagedMemoryStream writeStream((Byte*)dataOut, (Int64)dataOutSize, (Int64)dataOutSize, FileAccess::Write);
 

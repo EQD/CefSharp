@@ -2,7 +2,7 @@
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
-namespace CefSharp.Example
+namespace MavoraCefSharp.Example
 {
     public class CefSharpSchemeHandlerFactory : ISchemeHandlerFactory
     {
@@ -11,10 +11,10 @@ namespace CefSharp.Example
 
         public IResourceHandler Create(IBrowser browser, IFrame frame, string schemeName, IRequest request)
         {
-            if (schemeName == SchemeName && request.Url.EndsWith("CefSharp.Core.xml", System.StringComparison.OrdinalIgnoreCase))
+            if (schemeName == SchemeName && request.Url.EndsWith("MavoraCefSharp.Core.xml", System.StringComparison.OrdinalIgnoreCase))
             {
                 //Display the debug.log file in the browser
-                return ResourceHandler.FromFileName("CefSharp.Core.xml", ".xml");
+                return ResourceHandler.FromFileName("MavoraCefSharp.Core.xml", ".xml");
             }
             return new CefSharpSchemeHandler();
         }

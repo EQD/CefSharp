@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,8 +8,8 @@
     <ProjectGuid>{7A4D5447-183B-4A11-8E63-9848991B46FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CefSharp.Test</RootNamespace>
-    <AssemblyName>CefSharp.Test</AssemblyName>
+    <RootNamespace>MavoraCefSharp.Test</RootNamespace>
+    <AssemblyName>MavoraCefSharp.Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
@@ -106,19 +106,19 @@
   <ItemGroup>
     <ProjectReference Include="..\CefSharp.BrowserSubprocess\CefSharp.BrowserSubprocess.csproj">
       <Project>{23ee5140-2c2c-4b53-a954-10b08dca6bd6}</Project>
-      <Name>CefSharp.BrowserSubprocess</Name>
+      <Name>MavoraCefSharp.BrowserSubprocess</Name>
     </ProjectReference>
     <ProjectReference Include="..\CefSharp.Core\CefSharp.Core.vcxproj">
       <Project>{7b495581-2271-4f41-9476-acb86e8c864f}</Project>
-      <Name>CefSharp.Core</Name>
+      <Name>MavoraCefSharp.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\CefSharp.Wpf\CefSharp.Wpf.csproj">
       <Project>{E6CB3790-F267-4AC7-892C-2620737682CA}</Project>
-      <Name>CefSharp.Wpf</Name>
+      <Name>MavoraCefSharp.Wpf</Name>
     </ProjectReference>
     <ProjectReference Include="..\CefSharp\CefSharp.csproj">
       <Project>{a55848cc-10e7-40cb-addb-04740b16dd43}</Project>
-      <Name>CefSharp</Name>
+      <Name>MavoraCefSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

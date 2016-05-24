@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@
 
 using namespace System::Text;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -58,7 +58,7 @@ namespace CefSharp
             return _wrappedRequest->GetIdentifier();
         }
 
-        void CefRequestWrapper::SetReferrer(String^ referrerUrl, CefSharp::ReferrerPolicy policy)
+        void CefRequestWrapper::SetReferrer(String^ referrerUrl, MavoraCefSharp::ReferrerPolicy policy)
         {
             ThrowIfDisposed();
 
@@ -72,18 +72,18 @@ namespace CefSharp
             return StringUtils::ToClr(_wrappedRequest->GetReferrerURL());
         }
 
-        CefSharp::ResourceType CefRequestWrapper::ResourceType::get()
+        MavoraCefSharp::ResourceType CefRequestWrapper::ResourceType::get()
         {
             ThrowIfDisposed();
 
-            return (CefSharp::ResourceType)_wrappedRequest->GetResourceType();
+            return (MavoraCefSharp::ResourceType)_wrappedRequest->GetResourceType();
         }
 
-        CefSharp::ReferrerPolicy CefRequestWrapper::ReferrerPolicy::get()
+        MavoraCefSharp::ReferrerPolicy CefRequestWrapper::ReferrerPolicy::get()
         {
             ThrowIfDisposed();
 
-            return (CefSharp::ReferrerPolicy)_wrappedRequest->GetReferrerPolicy();
+            return (MavoraCefSharp::ReferrerPolicy)_wrappedRequest->GetReferrerPolicy();
         }
 
         NameValueCollection^ CefRequestWrapper::Headers::get()
@@ -128,7 +128,7 @@ namespace CefSharp
         {
             ThrowIfDisposed();
 
-            return (CefSharp::TransitionType) _wrappedRequest->GetTransitionType();
+            return (MavoraCefSharp::TransitionType) _wrappedRequest->GetTransitionType();
         }
 
         IPostData^ CefRequestWrapper::PostData::get()

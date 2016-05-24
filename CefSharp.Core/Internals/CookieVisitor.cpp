@@ -5,7 +5,7 @@
 #include "Stdafx.h"
 #include "CookieVisitor.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     bool CookieVisitor::Visit(const CefCookie& cefCookie, int count, int total, bool& deleteCookie)
     {

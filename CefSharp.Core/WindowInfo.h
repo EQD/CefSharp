@@ -8,7 +8,7 @@
 
 #include "include\internal\cef_win.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     public ref class WindowInfo : public IWindowInfo
     {

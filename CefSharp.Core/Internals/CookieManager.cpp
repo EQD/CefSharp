@@ -10,7 +10,7 @@
 #include "Internals\CefCompletionCallbackAdapter.h"
 #include "Cef.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

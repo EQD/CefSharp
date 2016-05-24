@@ -6,7 +6,7 @@
 
 #include "Stdafx.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     public ref class NativeMethodWrapper sealed
     {

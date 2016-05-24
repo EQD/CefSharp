@@ -1,13 +1,13 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
 using System.Windows.Forms;
-using CefSharp.Example;
-using CefSharp.WinForms.Example.Minimal;
+using MavoraCefSharp.Example;
+using MavoraCefSharp.WinForms.Example.Minimal;
 
-namespace CefSharp.WinForms.Example
+namespace MavoraCefSharp.WinForms.Example
 {
     public class Program
     {
@@ -38,7 +38,7 @@ namespace CefSharp.WinForms.Example
 #endif
 
                 var settings = new CefSettings();
-                settings.BrowserSubprocessPath = "CefSharp.WinForms.Example.exe";
+                settings.BrowserSubprocessPath = "MavoraCefSharp.WinForms.Example.exe";
 
                 Cef.Initialize(settings);
 

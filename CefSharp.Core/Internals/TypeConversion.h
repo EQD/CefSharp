@@ -15,9 +15,9 @@
 #include "Serialization\V8Serialization.h"
 
 using namespace System::Collections::Generic;
-using namespace CefSharp::Internals::Serialization;
+using namespace MavoraCefSharp::Internals::Serialization;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -47,7 +47,7 @@ namespace CefSharp
             //ConvertFrom CefDownload to DownloadItem
             static DownloadItem^ FromNative(CefRefPtr<CefDownloadItem> downloadItem)
             {
-                auto item = gcnew CefSharp::DownloadItem();
+                auto item = gcnew MavoraCefSharp::DownloadItem();
                 item->IsValid = downloadItem->IsValid();
                 //NOTE: Description for IsValid says `Do not call any other methods if this function returns false.` so only load if IsValid = true
                 if(item->IsValid)

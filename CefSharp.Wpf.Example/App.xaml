@@ -1,9 +1,9 @@
-﻿<Application x:Class="CefSharp.Wpf.Example.App"
+<Application x:Class="MavoraCefSharp.Wpf.Example.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:controls="clr-namespace:CefSharp.Wpf.Example.Controls"
-             xmlns:view="clr-namespace:CefSharp.Wpf.Example.Views"
-             xmlns:viewModel="clr-namespace:CefSharp.Wpf.Example.ViewModels"
+             xmlns:controls="clr-namespace:MavoraCefSharp.Wpf.Example.Controls"
+             xmlns:view="clr-namespace:MavoraCefSharp.Wpf.Example.Views"
+             xmlns:viewModel="clr-namespace:MavoraCefSharp.Wpf.Example.ViewModels"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style TargetType="{x:Type controls:NonReloadingTabControl}">

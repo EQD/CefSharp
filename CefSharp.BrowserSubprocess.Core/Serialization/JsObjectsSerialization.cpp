@@ -7,7 +7,7 @@
 #include "../CefSharp.Core/Internals/Serialization/Primitives.h"
 #include "../CefSharp.Core/Internals/Serialization/ObjectsSerialization.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {

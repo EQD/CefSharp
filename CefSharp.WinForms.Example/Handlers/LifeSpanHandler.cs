@@ -1,11 +1,11 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
 using System.Windows.Forms;
 
-namespace CefSharp.WinForms.Example.Handlers
+namespace MavoraCefSharp.WinForms.Example.Handlers
 {
     public class LifeSpanHandler : ILifeSpanHandler
     {
@@ -46,7 +46,7 @@ namespace CefSharp.WinForms.Example.Handlers
 
                 owner.AddOwnedForm(popup);
 
-                popup.Controls.Add(new Label { Text = "CefSharp Custom Popup" });
+                popup.Controls.Add(new Label { Text = "MavoraCefSharp Custom Popup" });
                 popup.Controls.Add(chromiumBrowser);
 
                 popup.Show();

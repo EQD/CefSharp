@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace CefSharp.WinForms.Example.Handlers
+namespace MavoraCefSharp.WinForms.Example.Handlers
 {
     public class KeyboardHandler : IKeyboardHandler
     {

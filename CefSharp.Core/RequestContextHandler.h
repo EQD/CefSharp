@@ -8,7 +8,7 @@
 
 #include "Internals\TypeConversion.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     private class RequestContextHandler : public CefRequestContextHandler
     {
@@ -34,7 +34,7 @@ namespace CefSharp
             if (!Object::ReferenceEquals(_pluginHandler, nullptr))
             {
                 auto pluginInfo = TypeConversion::FromNative(plugin_info);
-                auto pluginPolicy = (CefSharp::PluginPolicy)*plugin_policy;
+                auto pluginPolicy = (MavoraCefSharp::PluginPolicy)*plugin_policy;
 
                 auto result = _pluginHandler->OnBeforePluginLoad(StringUtils::ToClr(mime_type),
                                                                 StringUtils::ToClr(plugin_url),

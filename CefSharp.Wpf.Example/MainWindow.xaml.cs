@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -7,12 +7,12 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
-using CefSharp.Example;
-using CefSharp.Wpf.Example.Controls;
-using CefSharp.Wpf.Example.ViewModels;
+using MavoraCefSharp.Example;
+using MavoraCefSharp.Wpf.Example.Controls;
+using MavoraCefSharp.Wpf.Example.ViewModels;
 using Microsoft.Win32;
 
-namespace CefSharp.Wpf.Example
+namespace MavoraCefSharp.Wpf.Example
 {
     public partial class MainWindow : Window
     {

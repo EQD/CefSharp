@@ -1,11 +1,11 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
 using System;
-using CefSharp.Wpf.Rendering;
+using MavoraCefSharp.Wpf.Rendering;
 
-namespace CefSharp.Wpf
+namespace MavoraCefSharp.Wpf
 {
     /// <summary>
     /// Event arguments to the Rendering event handler set up in IWebBrowser.

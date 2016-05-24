@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@
 #include "Stdafx.h"
 #include "RequestContext.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     /// <summary>
     /// Browser initialization settings. Specify NULL or 0 to get the recommended

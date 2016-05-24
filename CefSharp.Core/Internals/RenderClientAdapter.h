@@ -1,4 +1,4 @@
-﻿// Copyright © 2010-2016 The CefSharp Authors. All rights reserved.
+// Copyright � 2010-2016 The CefSharp Authors. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.
 
@@ -11,7 +11,7 @@
 
 using namespace msclr;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
@@ -175,14 +175,14 @@ namespace CefSharp
             virtual DECL void OnCursorChange(CefRefPtr<CefBrowser> browser, CefCursorHandle cursor, CursorType type,
                 const CefCursorInfo& custom_cursor_info) OVERRIDE
             {
-                _renderWebBrowser->SetCursor((IntPtr)cursor, (CefSharp::CefCursorType)type);
+                _renderWebBrowser->SetCursor((IntPtr)cursor, (MavoraCefSharp::CefCursorType)type);
             };
 
             virtual DECL bool StartDragging(CefRefPtr<CefBrowser> browser, CefRefPtr<CefDragData> dragData,
                 CefRenderHandler::DragOperationsMask allowedOps, int x, int y)
             {
                 CefDragDataWrapper dragDataWrapper(dragData);
-                return _renderWebBrowser->StartDragging(%dragDataWrapper, (CefSharp::DragOperationsMask)allowedOps, x, y);
+                return _renderWebBrowser->StartDragging(%dragDataWrapper, (MavoraCefSharp::DragOperationsMask)allowedOps, x, y);
             }
 
         private:

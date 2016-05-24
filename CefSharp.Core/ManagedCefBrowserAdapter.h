@@ -19,7 +19,7 @@ using namespace System::ServiceModel;
 using namespace System::Threading;
 using namespace System::Threading::Tasks;
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     public ref class ManagedCefBrowserAdapter : public IBrowserAdapter
     {
@@ -52,9 +52,9 @@ namespace CefSharp
             }
 
             _webBrowserInternal = webBrowserInternal;
-            _javaScriptObjectRepository = gcnew CefSharp::Internals::JavascriptObjectRepository();
-            _javascriptCallbackFactory = gcnew CefSharp::Internals::JavascriptCallbackFactory(_clientAdapter->GetPendingTaskRepository());
-            _methodRunnerQueue = gcnew CefSharp::Internals::MethodRunnerQueue(_javaScriptObjectRepository);
+            _javaScriptObjectRepository = gcnew MavoraCefSharp::Internals::JavascriptObjectRepository();
+            _javascriptCallbackFactory = gcnew MavoraCefSharp::Internals::JavascriptCallbackFactory(_clientAdapter->GetPendingTaskRepository());
+            _methodRunnerQueue = gcnew MavoraCefSharp::Internals::MethodRunnerQueue(_javaScriptObjectRepository);
             _methodRunnerQueue->MethodInvocationComplete += gcnew EventHandler<MethodInvocationCompleteArgs^>(this, &ManagedCefBrowserAdapter::MethodInvocationComplete);
             _methodRunnerQueue->Start();
         }
@@ -119,17 +119,17 @@ namespace CefSharp
 
         virtual property IJavascriptCallbackFactory^ JavascriptCallbackFactory
         {
-            CefSharp::Internals::IJavascriptCallbackFactory^ get();
+            MavoraCefSharp::Internals::IJavascriptCallbackFactory^ get();
         }
 
         virtual property JavascriptObjectRepository^ JavascriptObjectRepository
         {
-            CefSharp::Internals::JavascriptObjectRepository^ get();
+            MavoraCefSharp::Internals::JavascriptObjectRepository^ get();
         }
 
         virtual property MethodRunnerQueue^ MethodRunnerQueue
         {
-            CefSharp::Internals::MethodRunnerQueue^ get();
+            MavoraCefSharp::Internals::MethodRunnerQueue^ get();
         }
     };
 }

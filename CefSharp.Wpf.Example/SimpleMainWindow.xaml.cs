@@ -1,6 +1,6 @@
-﻿using System.Windows;
+using System.Windows;
 
-namespace CefSharp.Wpf.Example
+namespace MavoraCefSharp.Wpf.Example
 {
     /// <summary>
     /// Interaction logic for SimpleMainWindow.xaml

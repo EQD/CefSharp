@@ -9,7 +9,7 @@
 #include <include/cef_browser.h>
 #include "CefWrapper.h"
 
-namespace CefSharp
+namespace MavoraCefSharp
 {
     namespace Internals
     {
