@@ -65,5 +65,6 @@ foreach ($file in $files)
     (Get-Content $file.PSPath) |
     Foreach-Object { $_ -replace 'Class="CefSharp', 'Class="MavoraCefSharp' } |
 	Foreach-Object { $_ -replace 'clr-namespace:CefSharp', 'clr-namespace:MavoraCefSharp' } |
+	Foreach-Object { $_ -replace ';assembly=CefSharp', ';assembly=MavoraCefSharp' } |
     Set-Content $file.PSPath
 }
