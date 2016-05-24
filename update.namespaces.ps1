@@ -47,3 +47,19 @@ foreach ($file in $files)
 	Foreach-Object { $_ -replace "<RootNamespace>CefSharp", "<RootNamespace>MavoraCefSharp" } |
     Set-Content $file.PSPath
 }
+
+$files = Get-ChildItem . *.manifest -rec
+foreach ($file in $files)
+{
+    (Get-Content $file.PSPath) |
+    Foreach-Object { $_ -replace 'name="CefSharp', 'name="MavoraCefSharp' } |
+    Set-Content $file.PSPath
+}
+
+$files = Get-ChildItem . *.xaml -rec
+foreach ($file in $files)
+{
+    (Get-Content $file.PSPath) |
+    Foreach-Object { $_ -replace 'Class="CefSharp', 'Class="MavoraCefSharp' } |
+    Set-Content $file.PSPath
+}
