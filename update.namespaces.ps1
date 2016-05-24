@@ -13,9 +13,8 @@ foreach ($file in $files)
 {
     (Get-Content $file.PSPath) |
     Foreach-Object { $_ -replace "namespace CefSharp", "namespace MavoraCefSharp" } |
-	Foreach-Object { $_ -replace "using namespace CefSharp", "using namespace MavoraCefSharp" } |
-	Foreach-Object { $_ -replace '"CefSharp', '"MavoraCefSharp' } |
 	Foreach-Object { $_ -replace "CefSharp::", "MavoraCefSharp::" } |
+	Foreach-Object { $_ -replace "using namespace CefSharp", "using namespace MavoraCefSharp" } |
     Set-Content $file.PSPath
 }
 
@@ -24,9 +23,8 @@ foreach ($file in $files)
 {
     (Get-Content $file.PSPath) |
     Foreach-Object { $_ -replace "namespace CefSharp", "namespace MavoraCefSharp" } |
-	Foreach-Object { $_ -replace "using namespace CefSharp", "using namespace MavoraCefSharp" } |
-	Foreach-Object { $_ -replace '"CefSharp', '"MavoraCefSharp' } |
 	Foreach-Object { $_ -replace "CefSharp::", "MavoraCefSharp::" } |
+	Foreach-Object { $_ -replace "using namespace CefSharp", "using namespace MavoraCefSharp" } |
     Set-Content $file.PSPath
 }
 
