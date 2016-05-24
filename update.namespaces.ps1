@@ -12,7 +12,7 @@ $files = Get-ChildItem . *.h -rec
 foreach ($file in $files)
 {
     (Get-Content $file.PSPath) |
-    Foreach-Object { $_ -replace "namespace CefSharp", "namespace Mavora.CefSharp" } |
+    Foreach-Object { $_ -replace "namespace CefSharp", "namespace Mavora::CefSharp" } |
 	Foreach-Object { $_ -replace "using namespace CefSharp", "using namespace Mavora::CefSharp" } |
 	Foreach-Object { $_ -replace '"CefSharp', '"Mavora.CefSharp' } |
     Set-Content $file.PSPath
@@ -22,7 +22,7 @@ $files = Get-ChildItem . *.cpp -rec
 foreach ($file in $files)
 {
     (Get-Content $file.PSPath) |
-    Foreach-Object { $_ -replace "namespace CefSharp", "namespace Mavora.CefSharp" } |
+    Foreach-Object { $_ -replace "namespace CefSharp", "namespace Mavora::CefSharp" } |
 	Foreach-Object { $_ -replace "using namespace CefSharp", "using namespace Mavora::CefSharp" } |
 	Foreach-Object { $_ -replace '"CefSharp', '"Mavora.CefSharp' } |
     Set-Content $file.PSPath
