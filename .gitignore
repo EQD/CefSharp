@@ -8,6 +8,7 @@
 *.ncb
 *.nupkg
 *.obj
+*.opendb
 *.opensdf
 *.pdb
 *.ReSharper
@@ -15,6 +16,7 @@
 *.suo
 *.swp
 *.user
+*.VC.db
 *.xml
 _ReSharper*
 
