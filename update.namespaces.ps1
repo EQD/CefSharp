@@ -3,6 +3,7 @@ foreach ($file in $files)
 {
     (Get-Content $file.PSPath) |
     Foreach-Object { $_ -replace "namespace CefSharp", "namespace MavoraCefSharp" } |
+	Foreach-Object { $_ -replace "global::CefSharp", "global::MavoraCefSharp" } |
 	Foreach-Object { $_ -replace "using CefSharp", "using MavoraCefSharp" } |
 	Foreach-Object { $_ -replace '"CefSharp', '"MavoraCefSharp' } |
     Set-Content $file.PSPath
